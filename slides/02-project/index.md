@@ -29,13 +29,14 @@
 
 ### Что было до нас
 
+<img src="slides/02-project/old.png" alt="Quizes" />
 
 
 <style>
     .project-gif {
         margin: 0 !important;
         position: absolute;
-        top: -150px;
+        top: -100px;
         right: -200px;
     }
     .project-img {
