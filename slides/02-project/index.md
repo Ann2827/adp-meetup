@@ -38,11 +38,13 @@
         position: absolute;
         top: -100px;
         right: -200px;
+        z-index: -1;
     }
     .project-img {
         position: absolute;
         bottom: -300px;
         left: -300px;
+        z-index: -1;
     }
     .project-developers {
         margin: 0 !important;
