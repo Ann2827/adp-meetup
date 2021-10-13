@@ -7,3 +7,5 @@ https://github.com/sw1tchdev/rambler-meetup-webpack-presentation
 https://sw1tchdev.github.io/meetup-webpack-presentation
 
 https://zavoloklom.github.io/adp-meetup-workflow-and-codestyle/presentation/
+
+https://www.figma.com/file/Bvs7N3AvbK6Wu4PJJcKdXd/QuizyWorld?node-id=1219%3A146
