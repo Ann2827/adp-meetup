@@ -10,3 +10,5 @@ https://zavoloklom.github.io/adp-meetup-workflow-and-codestyle/presentation/
 https://github.com/zavoloklom/adp-meetup-workflow-and-codestyle
 
 https://www.figma.com/file/Bvs7N3AvbK6Wu4PJJcKdXd/QuizyWorld?node-id=1219%3A146
+
+some changes
