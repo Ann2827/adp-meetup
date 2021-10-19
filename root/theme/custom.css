@@ -2,12 +2,10 @@
   background: linear-gradient(90.04deg, #7b82f3, #8eeac6);
 }
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 150px;
-  align-items: center;
+.wrapper {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h2 {

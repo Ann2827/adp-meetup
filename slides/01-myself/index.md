@@ -1,3 +1,5 @@
+<div class="wrapper">
+
 ## О себе
 
 - В Admitad Projects 2.5 года
@@ -19,3 +21,5 @@
 [comment]: <> (-----)
 
 [comment]: <> (1. Где используется <!-- .element: class="fragment" -->)
+
+</div>

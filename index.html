@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="root/theme/custom.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+<!--		<link rel="stylesheet" href="plugin/highlight/monokai.css">-->
 	</head>
 	<body>
 		<div class="reveal">
@@ -39,16 +39,17 @@
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-                progress: true,
-                navigationMode: "linear",
-				// width: 1920,
-				// height: 1080,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
+			document.addEventListener('DOMContentLoaded', () => {
+				Reveal.initialize({
+					hash: true,
+					progress: true,
+					navigationMode: "linear",
+					width: 1440,
+					height: 821,
+					// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				});
+			})
 		</script>
 	</body>
 </html>
