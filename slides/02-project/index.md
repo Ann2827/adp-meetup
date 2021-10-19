@@ -8,6 +8,15 @@
 [comment]: <> (Пердставляет собой опросник, который клиент может интегрировать на свой сайт)
 <img src="slides/02-project/quiz.gif" alt="Quiz" class="project-gif" />
 <img src="slides/02-project/blue_shape.png" alt="Decor" class="project-img" />
+
+-----
+
+Видео прохождение квиза
+
+-----
+
+Скрины модов
+
 -----
 
 ### Команда разработки
@@ -21,7 +30,7 @@
 - Приложение-квиз *(React, TypeScript)*
 - Embed *(JavaScript)*
 - Бэкенд *(Node, TypeScript, Nest)*
-- БД *(MySQL 8, Clickhouse)*
+- БД *(MySQL 8, Clickhouse, MongoDB)*
 - Админка *(React, TypeScript)*
 - Лэндинг *(Tilda)*
 
@@ -48,7 +57,7 @@
     }
     .project-developers {
         margin: 0 !important;
-        width: 60%;
+        width: 100%;
         height: 60%;
     }
     li > em {

@@ -1,4 +1,5 @@
 import Deck, { VERSION } from './reveal.js'
+import './custom/index';
 
 /**
  * Expose the Reveal class to the window. To create a
