@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="root/theme/custom.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+<!--		<link rel="stylesheet" href="plugin/highlight/monokai.css">-->
 	</head>
 	<body>
 		<div class="reveal">
@@ -23,6 +23,11 @@
 				<section data-markdown="slides/02-project/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
 				<section data-markdown="slides/03-first-client/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
 				<section data-markdown="slides/04-quiz-new/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
+				<section data-markdown="slides/05-architectural-solutions/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
+				<section data-markdown="slides/06-theme/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
+				<section data-markdown="slides/07-mistakes/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
+				<section data-markdown="slides/08-result/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
+				<section data-markdown="slides/09-thanks/index.md" data-separator-notes="^Note:" data-separator-vertical="^-----\n"></section>
 			</div>
 		</div>
 
@@ -34,14 +39,17 @@
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-                progress: true,
-                navigationMode: "linear",
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
+			document.addEventListener('DOMContentLoaded', () => {
+				Reveal.initialize({
+					hash: true,
+					progress: true,
+					navigationMode: "linear",
+					width: 1440,
+					height: 821,
+					// Learn about plugins: https://revealjs.com/plugins/
+					plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				});
+			})
 		</script>
 	</body>
 </html>
