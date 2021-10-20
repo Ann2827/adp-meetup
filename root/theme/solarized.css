@@ -20,6 +20,7 @@ html * {
   --r-main-font: Lato, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #657b83;
+  --r-second-color: #F7F7FC;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: League Gothic, Impact, sans-serif;
@@ -55,14 +56,14 @@ html * {
 }
 
 .reveal ::selection {
-  color: var(--r-selection-color);
-  background: var(--r-selection-background-color);
+  color: var(--r-main-color);
+  background: var(--r-second-color);
   text-shadow: none;
 }
 
 .reveal ::-moz-selection {
-  color: var(--r-selection-color);
-  background: var(--r-selection-background-color);
+  color: var(--r-main-color);
+  background: var(--r-second-color);
   text-shadow: none;
 }
 

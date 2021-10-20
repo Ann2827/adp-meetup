@@ -35,6 +35,8 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/animate/plugin.js"></script>
+		<script src="plugin/animate/svg.min.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -47,7 +49,11 @@
 					width: 1440,
 					height: 821,
 					// Learn about plugins: https://revealjs.com/plugins/
-					plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+					plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealAnimate ],
+					autoPlayMedia: true,
+					animate: {
+						autoplay: true
+					}
 				});
 			})
 		</script>

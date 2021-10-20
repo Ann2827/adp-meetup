@@ -21,6 +21,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-main-font: Open Sans, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #333;
+  --r-second-color: #F7F7FC;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Quicksand, sans-serif;
@@ -62,14 +63,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal ::selection {
-  color: var(--r-selection-color);
-  background: var(--r-selection-background-color);
+  color: var(--r-main-color);
+  background: var(--r-second-color);
   text-shadow: none;
 }
 
 .reveal ::-moz-selection {
-  color: var(--r-selection-color);
-  background: var(--r-selection-background-color);
+  color: var(--r-main-color);
+  background: var(--r-second-color);
   text-shadow: none;
 }
 

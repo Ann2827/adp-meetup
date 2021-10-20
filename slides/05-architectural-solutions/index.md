@@ -14,9 +14,7 @@
     <div class="dir">
         <img src="slides/05-architectural-solutions/dirs.png" alt="Директория" style="margin-top: 200px !important;" />
     </div>
-    <div class="app">
-        <img src="slides/05-architectural-solutions/app.png" />
-    </div>
+    <div class="app" id="app-root"></div>
 </div>
 
 <style>
@@ -31,6 +29,8 @@
         width: 70%;
     }
 </style>
+
+[comment]: <> (<img src="slides/05-architectural-solutions/app.png" />)
 
 -----
 
