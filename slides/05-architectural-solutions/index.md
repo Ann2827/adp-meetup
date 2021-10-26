@@ -10,27 +10,29 @@
 
 ### Приложение
 
-<div class="wrap">
-    <div class="dir">
-        <img src="slides/05-architectural-solutions/dirs.png" alt="Директория" style="margin-top: 200px !important;" />
-    </div>
-    <div class="app" id="app-root"></div>
+<video id="app-video" src="slides/05-architectural-solutions/app.mp4" style="height: calc(100vh - 100px)"></video>
+<div id="app-button" class="app-button">
+    <svg class="app-svg" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 18 8.5-6L6 6v12zM16 6v12h2V6h-2z"></path></svg>
 </div>
 
 <style>
-    .wrap {
-        display: flex;
-        flex-direction: row;
+    .app-button {
+        border-radius: 10px;
+        width: 54px;
+        height: 54px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 10%;
+        right: 20%;
     }
-    .dir {
-        width: 20%;
+    .app-button:hover {
+        background-color: rgba(128,128,128,0.49);
     }
-    .app {
-        width: 70%;
+    .app-svg {
+        width: 24px;
+        height: 24px;
     }
 </style>
-
-[comment]: <> (<img src="slides/05-architectural-solutions/app.png" />)
 
 -----
 
