@@ -11,7 +11,9 @@
 
 -----
 
-<video src="slides/02-project/passing.mov" controls='controls' data-preload></video>
+<div id="qw-quiz-c1eba035241062e56ee2a90d96f49089" class="qw-quiz" style="width: 100%;"></div>
+
+[comment]: <> (<video data-autoplay src="slides/02-project/passing.mov" controls='controls'></video>)
 
 -----
 

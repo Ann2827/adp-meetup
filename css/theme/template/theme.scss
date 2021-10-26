@@ -19,14 +19,14 @@
 }
 
 .reveal ::selection {
-	color: var(--r-selection-color);
-	background: var(--r-selection-background-color);
+	color: var(--r-main-color);
+	background: var(--r-second-color);
 	text-shadow: none;
 }
 
 .reveal ::-moz-selection {
-	color: var(--r-selection-color);
-	background: var(--r-selection-background-color);
+	color: var(--r-main-color);
+	background: var(--r-second-color);
 	text-shadow: none;
 }
 
