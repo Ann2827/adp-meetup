@@ -19,17 +19,25 @@
 
 ### Модификации открытия
 
+<p class="reveal justify-start r-hstack"><b>Standalone:</b></p>
+
 <img src="slides/02-project/standalone.png" alt="Standalone" class="project-image" />
 
 -----
+
+<p class="reveal justify-start r-hstack"><b>Embed:</b></p>
 
 <img src="slides/02-project/embed.png" alt="Embed" class="project-image" />
 
 -----
 
+<p class="reveal justify-start r-hstack"><b>Popup:</b></p>
+
 <img src="slides/02-project/popup.png" alt="Popup" class="project-image" />
 
 -----
+
+<p class="reveal justify-start r-hstack"><b>Mobile:</b></p>
 
 <img src="slides/02-project/mobile.png" alt="Mobile" class="project-image" />
 
@@ -54,7 +62,7 @@
 
 ### Команда разработки
 
-<img src="slides/02-project/developers.png" alt="Developers" class="project-image" />
+<img src="slides/02-project/developers.png" alt="Developers" class="project-full-image" />
 
 
 <style>
@@ -72,6 +80,10 @@
         z-index: -1;
     }
     .project-image {
+        margin: 0 !important;
+        height: calc(100vh - 200px);
+    }
+    .project-full-image {
         margin: 0 !important;
         height: calc(100vh - 100px);
     }
